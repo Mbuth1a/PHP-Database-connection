@@ -57,6 +57,9 @@ navigation bar
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod omnis mollitia consequuntur deserunt quis, ea voluptas amet at eligendi laboriosam vel sequi ad aspernatur aliquid, corporis, numquam ab? Voluptatibus, minima.</p>
      
     </div>
+    <br>
+    <br>
+    
     <div class="row">
         <div class="col-lg-6">
           <h2>Our Program</h2>
