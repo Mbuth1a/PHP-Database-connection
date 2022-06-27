@@ -64,6 +64,7 @@ else{
      <!-- end of navigation nav -->
 <br>
 <br>
+<div class="container">
 <br>
      <!-- Contact us page -->
      <div class="row" name="enroll">
@@ -144,9 +145,21 @@ else{
         <br>
         <br>  
         <p>You agree by providing your information you understand all our data privacy and protection policy <br>outlined in our terms and condition and the Privacy Policy statement.  </p>       
-        <button type= "" name= "checkBox" class="btn btn-primary">Agree Terms and conditions</button>
-       </form>
-     
+      <div class="form-check-output" type="checkbox" name="option1">
+        <button type= "" name= "checkBox" class="btn btn-primary">Agree Terms and conditions</button> 
+      </div>
+        <br>
+        <div class="row">
+          <div class="mb-3 col-lg-6">
+            <input type="email" class="form-control" placeholder="Enter Your Email">
+          </div>
+        <div class="mb-3 col-lg-6">
+          <button type="submit" name="subscribe" class="btn btn-primary">Subscribe</button>
+        </div>
+         
+      </form>
+      </div>
+</div>
 </div>
 
        <!-- end of contact us -->
