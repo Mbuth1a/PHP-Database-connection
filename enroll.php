@@ -39,6 +39,7 @@ else{
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/Bootstrap2-main/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <!-- nav bar -->
@@ -66,17 +67,32 @@ else{
 <br>
      <!-- Contact us page -->
      <div class="row" name="enroll">
+
        <div class="card"> 
              <h1>JULY SOFTWARE ENGINEERING BOOTCAMP</h1>
 
                  <form action="enroll.php" method="POST">
                   <?php echo $response ?>
+                  <ul>
+                    <li>
+                        <span><i class="fa fa-calender fa-3x"><i></span>
+                        <span>20th July 2022</span>
+                    </li>
+                    <li>
+                      <span>
+                        <i class="fa fa-map-marker fa-2x"></i> 
+                        </span>
+                        <span>Zalego Academy <br>Devan Plaza </span>
+                      
+                    </li>
+          
+                  </ul>
 
         </div>  
     
         <p class="text-centre">Looking for a place to kickstart you career in technology?<br> Whether you are local, new in town or just cruising through we've got<br> loads of great tips and event for you</p>
 <h1 class="text-center">Sign up Today</h1> 
-<div  class="container">
+
   <div class="row">
            <div class="mb-3 col-lg-6"></div>
            <label for="fullname" class="form-label">Full Name</label>
@@ -126,11 +142,11 @@ else{
         <br>
         <br>
         <br>
-        <br>
-        
-        <button type= "submit" name= "submitButton" class="btn btn-primary">Send a Message</button>
+        <br>  
+        <p>You agree by providing your information you understand all our data privacy and protection policy <br>outlined in our terms and condition and the Privacy Policy statement.  </p>       
+        <button type= "" name= "checkBox" class="btn btn-primary">Agree Terms and conditions</button>
        </form>
-</div>       
+     
 </div>
 
        <!-- end of contact us -->
