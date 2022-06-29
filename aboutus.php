@@ -4,7 +4,7 @@ $username="root";
 $password="";
 $database="zalego";
 $conn= mysqli_connect($server,$username,$password,$database);
-if(isset($_POST['subscribeButton']))
+if(isset($_POST['subscribeButton']))  
 {
     //1. Fetch form data
 $email=$_POST["email"];
